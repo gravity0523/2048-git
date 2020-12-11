@@ -20,7 +20,7 @@ CObj2048Main::CObj2048Main()
 //イニシャライズ
 void CObj2048Main::Init()
 {
-
+	c_flag[0] = false;
 }
 
 //アクション
@@ -52,5 +52,9 @@ void CObj2048Main::Action()
 //ドロー
 void CObj2048Main::Draw()
 {
+
+
+
+
 
 }
