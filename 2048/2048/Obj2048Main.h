@@ -3,6 +3,7 @@
 //使用するネームスペース
 using namespace GameL;
 
+
 //オブジェクト：2048メイン
 class CObj2048Main : public CObj
 {

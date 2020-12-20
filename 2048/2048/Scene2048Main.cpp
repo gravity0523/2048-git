@@ -31,6 +31,8 @@ CScene2048Main::~CScene2048Main()
 void CScene2048Main::InitScene()
 {
 	//グラフィック読み込み
+	Draw::LoadImage(L"Picture/frame.png",0,TEX_SIZE_512);
+	Draw::LoadImage(L"Picture/Number&cursor.png", 1, TEX_SIZE_512);
 
 	//音楽情報読み込み
 
