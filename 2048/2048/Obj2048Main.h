@@ -1,5 +1,5 @@
 #pragma once
-#include "GameL\SceneObjManager.h"
+#include "GameL/SceneObjManager.h"
 //使用するネームスペース
 using namespace GameL;
 
@@ -16,10 +16,13 @@ public:
 	float x, y;
 
 private:
-	int stage[4][4];
-	int stage_reset[4][4];
+	//int stage[4][4];
+	//int stage_reset[4][4];
 
 	//クリック判定
 	bool c_flag[2]; //クリックのフラグ	[0]=押している[1]=押していない
-
+	bool downflag;
+	bool upflag;
+	bool leftflag;
+	bool rightflag;
 };
